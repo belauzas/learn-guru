@@ -60,3 +60,28 @@
     left: 0;
     background-color: #fff;
 }
+.scroll::before {
+    display: inline-block;
+    animation: scrolling 3s infinite;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateY(-15%);
+    }
+    20% {
+        transform: translateY(20%);
+    }
+    40% {
+        transform: translateY(-15%);
+    }
+    60% {
+        transform: translateY(10%);
+    }
+    80% {
+        transform: translateY(-5%);
+    }
+    100% {
+        transform: translateY(-15%);
+    }
+}
