@@ -17,6 +17,11 @@ body {
         sans-serif;
 }
 
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
 .center {
     text-align: center;
 }
