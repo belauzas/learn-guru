@@ -1,5 +1,6 @@
 .hero {
     min-height: 100vh;
+    overflow: hidden;
 }
 
 .badge {
@@ -35,4 +36,10 @@
 .description {
     font-size: 17px;
     color: #777;
+}
+
+.main-image {
+    max-width: 50vw;
+    max-height: 80vh;
+    margin: 0 auto;
 }
