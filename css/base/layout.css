@@ -1,0 +1,95 @@
+.container {
+    display: grid;
+    gap: 40px 0;
+    grid-template-columns: 15px 1fr 15px;
+    padding: 60px 0;
+    border: 1px solid;
+}
+.container > .row {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.container > .row > .col-12 {
+    grid-column: span 12;
+    border: 1px solid;
+}
+.container > .row > .col-6 {
+    grid-column: span 6;
+    border: 1px solid;
+}
+.container > .row > .col-3 {
+    grid-column: span 3;
+    border: 1px solid;
+}
+
+@media (min-width: 576px) {
+    .container {
+        grid-template-columns: 1fr 540px 1fr;
+    }
+    .container > .row > .col-sm-12 {
+        grid-column: span 12;
+    }
+    .container > .row > .col-sm-6 {
+        grid-column: span 6;
+    }
+    .container > .row > .col-sm-3 {
+        grid-column: span 3;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        grid-template-columns: 1fr 720px 1fr;
+    }
+    .container > .row > .col-md-12 {
+        grid-column: span 12;
+    }
+    .container > .row > .col-md-6 {
+        grid-column: span 6;
+    }
+    .container > .row > .col-md-3 {
+        grid-column: span 3;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        grid-template-columns: 1fr 960px 1fr;
+    }
+    .container > .row > .col-lg-12 {
+        grid-column: span 12;
+    }
+    .container > .row > .col-lg-6 {
+        grid-column: span 6;
+    }
+    .container > .row > .col-lg-3 {
+        grid-column: span 3;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        grid-template-columns: 1fr 1140px 1fr;
+    }
+    .container > .row > .col-xl-12 {
+        grid-column: span 12;
+    }
+    .container > .row > .col-xl-6 {
+        grid-column: span 6;
+    }
+    .container > .row > .col-xl-3 {
+        grid-column: span 3;
+    }
+}
+@media (min-width: 1400px) {
+    .container {
+        grid-template-columns: 1fr 1320px 1fr;
+    }
+    .container > .row > .col-xxl-12 {
+        grid-column: span 12;
+    }
+    .container > .row > .col-xxl-6 {
+        grid-column: span 6;
+    }
+    .container > .row > .col-xxl-3 {
+        grid-column: span 3;
+    }
+}
