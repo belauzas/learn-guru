@@ -26,6 +26,9 @@
     text-decoration: none;
     color: inherit;
 }
+.header .link.btn {
+    color: #fff;
+}
 
 @media (max-width: 767px) {
     .header nav {
