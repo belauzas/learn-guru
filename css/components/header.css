@@ -1,0 +1,34 @@
+.header,
+.header > nav,
+.header > nav > .link-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > .logo {
+    height: 40px;
+}
+
+.header nav {
+    gap: 40px;
+}
+.header .link-list {
+    gap: 20px;
+    color: #000;
+}
+.header .link-list.account-list {
+    color: var(--primary-color);
+}
+.header .link {
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 767px) {
+    .header nav {
+        display: none;
+    }
+}

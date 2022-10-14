@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #ff6525;
+}
+
 body,
 body * {
     margin: 0;
