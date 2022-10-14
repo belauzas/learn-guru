@@ -26,3 +26,13 @@
 .btn.btn-square {
     border-radius: 0.3em;
 }
+.btn .icon {
+    font-size: inherit;
+    line-height: inherit;
+}
+.btn .icon.right {
+    margin-right: 0.5em;
+}
+.btn .icon.left {
+    margin-left: 0.5em;
+}
