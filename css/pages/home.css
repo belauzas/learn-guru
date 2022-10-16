@@ -2,6 +2,7 @@
 @import '../base/layout.css';
 @import '../3rd-party/font-awesome.min.css';
 @import '../components/button.css';
+@import '../components/course-card.css';
 @import '../components/header.css';
 @import '../components/hero.css';
 @import '../components/item-preview-list.css';
@@ -79,6 +80,26 @@
 @media (min-width: 992px) {
     .courses .section-header .left {
         justify-content: flex-end;
+    }
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+.gallery > .gallery-item {
+    padding: 15px;
+    box-shadow: 0 4px 12px #0002;
+}
+@media (min-width: 768px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 992px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 /* Courses section - END */
