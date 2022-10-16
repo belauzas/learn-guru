@@ -4,6 +4,7 @@
 @import '../components/button.css';
 @import '../components/header.css';
 @import '../components/hero.css';
+@import '../components/item-preview-list.css';
 
 .rouded-square {
     --size: clamp(50px, 25vw, 350px);
@@ -42,3 +43,9 @@
     background-color: var(--secondary-color);
 }
 /* Community section - END */
+
+/* Think and decide section - START */
+.think-decide .section-description {
+    margin-bottom: 1em;
+}
+/* Think and decide section - END */

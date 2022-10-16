@@ -42,6 +42,8 @@ img {
     font-weight: bold;
 }
 .section-description {
-    padding: 0 10%;
     color: #777;
+}
+.center .section-description {
+    padding: 0 10%;
 }
