@@ -4,6 +4,7 @@
 @import '../components/button.css';
 @import '../components/header.css';
 @import '../components/hero.css';
+@import '../components/item-preview-list.css';
 
 .rouded-square {
     --size: clamp(50px, 25vw, 350px);
@@ -42,3 +43,30 @@
     background-color: var(--secondary-color);
 }
 /* Community section - END */
+
+/* Think and decide section - START */
+.think-decide {
+    overflow: hidden;
+}
+.think-decide .item-preview-list,
+.think-decide .section-description {
+    margin-bottom: 1.5em;
+}
+.think-decide .main-think-image {
+    position: relative;
+    height: 100%;
+}
+.think-decide .main-think-image > img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    object-position: left;
+}
+.think-decide .main-think-image > .rouded-square {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) rotate(35deg);
+}
+/* Think and decide section - END */
