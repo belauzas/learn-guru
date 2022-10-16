@@ -160,3 +160,39 @@
 }
 
 /* Download apps section - END */
+
+/* Footer section - START */
+footer .logo {
+    height: 40px;
+    object-position: left;
+}
+footer .footer-link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .footer-link-list > a {
+    text-decoration: none;
+    color: #000;
+}
+footer .footer-link-list > a {
+    text-decoration: none;
+    color: #000;
+}
+footer .footer-link-list > a:hover {
+    color: var(--primary-color);
+}
+footer a > .icon {
+    margin-right: 0.5em;
+}
+
+footer .footer-title {
+    font-size: 28px;
+}
+
+.bottom-footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--secondary-color-light);
+}
+/* Footer section - END */
