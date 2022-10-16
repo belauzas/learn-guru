@@ -1,0 +1,71 @@
+.course {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.course > .course-image {
+}
+.course > .course-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 10px;
+}
+.course > .course-badges > .badge {
+    padding: 0.5em 1em;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-radius: 0.3em;
+    background-color: var(--secondary-color-light);
+}
+.course > .course-badges > .badge::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 0.5em;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+.course > .course-title {
+    margin-bottom: auto;
+}
+.course .details {
+    display: flex;
+    gap: 5px 10px;
+    flex-wrap: wrap;
+    font-size: 16px;
+    line-height: 1em;
+    position: relative;
+}
+.course .details > .details-item {
+    display: flex;
+    gap: 10px;
+}
+.course .details-item > .icon {
+    color: var(--primary-color);
+}
+
+.course .votes {
+}
+.course hr {
+    width: 70%;
+    height: 2px;
+    background-color: var(--primary-color);
+    border: none;
+}
+.course footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating {
+    display: flex;
+}
+.rating > .score {
+}
+.rating > .starts {
+    color: var(--secondary-color);
+}
+.rating > .starts > .icon {
+}

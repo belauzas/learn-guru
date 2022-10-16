@@ -31,8 +31,8 @@
     line-height: inherit;
 }
 .btn .icon.right {
-    margin-right: 0.5em;
+    margin-left: 0.5em;
 }
 .btn .icon.left {
-    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
