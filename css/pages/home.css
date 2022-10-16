@@ -175,10 +175,6 @@ footer .footer-link-list > a {
     text-decoration: none;
     color: #000;
 }
-footer .footer-link-list > a {
-    text-decoration: none;
-    color: #000;
-}
 footer .footer-link-list > a:hover {
     color: var(--primary-color);
 }
