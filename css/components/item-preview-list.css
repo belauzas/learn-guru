@@ -1,0 +1,28 @@
+.item-preview-list {
+    display: inline-block;
+}
+.item-preview-list > .item {
+    float: left;
+    width: 2em;
+    height: 2em;
+    margin-left: -0.6em;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.8em;
+    background-color: var(--primary-color);
+    color: #000;
+    border: 0.12em solid #fff;
+    border-radius: 50%;
+}
+.item-preview-list > img.item {
+    object-fit: cover;
+    object-position: center;
+}
+.item-preview-list > .item:first-child {
+    margin-left: 0;
+}
+.item-preview-list > .more {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
