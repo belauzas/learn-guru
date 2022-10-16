@@ -103,3 +103,60 @@
     }
 }
 /* Courses section - END */
+
+/* Download apps section - START */
+
+.download-apps {
+    padding: 60px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 40px;
+}
+@media (max-width: 575px) {
+    .download-apps {
+        padding: 40px;
+    }
+}
+.download-apps > .section-description {
+    margin-bottom: 2em;
+    color: #fff;
+}
+.download-apps > .links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.download-apps > .links > .app-store-link {
+    display: flex;
+    gap: 1.2em;
+    align-items: center;
+    padding: 1.2em 2.5em;
+    background-color: #fff;
+    border-radius: 0.8em;
+    text-decoration: none;
+    font-size: clamp(8px, 2vw, 13px);
+}
+.download-apps .app-store-link > img {
+    width: 3.141592654em;
+}
+.download-apps .app-store-link > .texts {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.download-apps .texts > p {
+    width: max-content;
+}
+.download-apps .texts > .now {
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-size: 1em;
+}
+.download-apps .texts > .store {
+    width: max-content;
+    color: #000;
+    font-size: 1.7em;
+}
+
+/* Download apps section - END */
