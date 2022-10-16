@@ -70,3 +70,15 @@
     transform: translateY(-50%) rotate(35deg);
 }
 /* Think and decide section - END */
+
+/* Courses section - START */
+.courses .section-header .left {
+    display: flex;
+    align-items: center;
+}
+@media (min-width: 992px) {
+    .courses .section-header .left {
+        justify-content: flex-end;
+    }
+}
+/* Courses section - END */
