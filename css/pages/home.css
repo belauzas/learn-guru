@@ -45,7 +45,8 @@
 /* Community section - END */
 
 /* Think and decide section - START */
-.think-decide .row {
+.think-decide {
+    overflow: hidden;
 }
 .think-decide .item-preview-list,
 .think-decide .section-description {
@@ -61,5 +62,11 @@
     position: absolute;
     inset: 0;
     object-position: left;
+}
+.think-decide .main-think-image > .rouded-square {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) rotate(35deg);
 }
 /* Think and decide section - END */
