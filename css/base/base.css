@@ -30,7 +30,7 @@ img {
 .section-title {
     margin-bottom: 1em;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
     color: var(--primary-color);
@@ -38,10 +38,11 @@ img {
 .section-subtitle {
     margin-bottom: 0.7em;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 36px;
     font-weight: bold;
 }
 .section-description {
+    font-size: 20px;
     color: #777;
 }
 .center .section-description {
