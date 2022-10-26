@@ -3,6 +3,7 @@
 @import '../3rd-party/font-awesome.min.css';
 @import '../components/button.css';
 @import '../components/course-card.css';
+@import '../components/form.css';
 @import '../components/header.css';
 @import '../components/hero.css';
 @import '../components/item-preview-list.css';
@@ -170,10 +171,6 @@ footer .footer-link-list {
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-footer .footer-link-list > a {
-    text-decoration: none;
-    color: #000;
 }
 footer .footer-link-list > a {
     text-decoration: none;

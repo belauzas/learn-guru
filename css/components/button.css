@@ -5,6 +5,7 @@
     font-weight: bold;
     font-size: 17px;
     text-decoration: none;
+    text-transform: capitalize;
     line-height: 1em;
     border-radius: 1.5em;
     border: none;
