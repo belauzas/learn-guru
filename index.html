@@ -381,6 +381,17 @@
                 <a href="#"><i class="icon fa fa-angle-right"></i>Support team</a>
                 <a href="#"><i class="icon fa fa-angle-right"></i>Events</a>
             </div>
+            <div class="col-12 col-md-6 footer-link-list">
+                <div class="footer-title">Useful links</div>
+                <p>Sign up for your free courses!</p>
+                <form action="/api/contact" method="post">
+                    <label for="name">Enter your name</label>
+                    <input id="name" name="name" type="text" placeholder="Enter your name" required autocomplete="name">
+                    <label for="email">Enter your email</label>
+                    <input id="email" name="email" type="email" placeholder="Enter your email" required autocomplete="email">
+                    <button class="btn btn-square" type="submit">Send now</button>
+                </form>
+            </div>
         </div>
     </footer>
 
