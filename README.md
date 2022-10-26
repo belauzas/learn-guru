@@ -74,3 +74,7 @@ Rimantas: [Github](https://github.com/belauzas)
 ## ⚠️ License
 
 Distributed under the MIT License. See LICENSE.txt for more information.
+
+## 🔗 Other resources
+
+https://randomuser.me/photos

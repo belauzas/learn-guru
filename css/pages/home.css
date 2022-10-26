@@ -2,8 +2,11 @@
 @import '../base/layout.css';
 @import '../3rd-party/font-awesome.min.css';
 @import '../components/button.css';
+@import '../components/course-card.css';
+@import '../components/form.css';
 @import '../components/header.css';
 @import '../components/hero.css';
+@import '../components/item-preview-list.css';
 
 .rouded-square {
     --size: clamp(50px, 25vw, 350px);
@@ -42,3 +45,151 @@
     background-color: var(--secondary-color);
 }
 /* Community section - END */
+
+/* Think and decide section - START */
+.think-decide {
+    overflow: hidden;
+}
+.think-decide .item-preview-list,
+.think-decide .section-description {
+    margin-bottom: 1.5em;
+}
+.think-decide .main-think-image {
+    position: relative;
+    height: 100%;
+}
+.think-decide .main-think-image > img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    object-position: left;
+}
+.think-decide .main-think-image > .rouded-square {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) rotate(35deg);
+}
+/* Think and decide section - END */
+
+/* Courses section - START */
+.courses .section-header .left {
+    display: flex;
+    align-items: center;
+}
+@media (min-width: 992px) {
+    .courses .section-header .left {
+        justify-content: flex-end;
+    }
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+.gallery > .gallery-item {
+    padding: 15px;
+    box-shadow: 0 4px 12px #0002;
+}
+@media (min-width: 768px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 992px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+/* Courses section - END */
+
+/* Download apps section - START */
+
+.download-apps {
+    padding: 60px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 40px;
+}
+@media (max-width: 575px) {
+    .download-apps {
+        padding: 40px;
+    }
+}
+.download-apps > .section-description {
+    margin-bottom: 2em;
+    color: #fff;
+}
+.download-apps > .links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.download-apps > .links > .app-store-link {
+    display: flex;
+    gap: 1.2em;
+    align-items: center;
+    padding: 1.2em 2.5em;
+    background-color: #fff;
+    border-radius: 0.8em;
+    text-decoration: none;
+    font-size: clamp(8px, 2vw, 13px);
+}
+.download-apps .app-store-link > img {
+    width: 3.141592654em;
+}
+.download-apps .app-store-link > .texts {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.download-apps .texts > p {
+    width: max-content;
+}
+.download-apps .texts > .now {
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-size: 1em;
+}
+.download-apps .texts > .store {
+    width: max-content;
+    color: #000;
+    font-size: 1.7em;
+}
+
+/* Download apps section - END */
+
+/* Footer section - START */
+footer .logo {
+    height: 40px;
+    object-position: left;
+}
+footer .footer-link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .footer-link-list > a {
+    text-decoration: none;
+    color: #000;
+}
+footer .footer-link-list > a:hover {
+    color: var(--primary-color);
+}
+footer a > .icon {
+    margin-right: 0.5em;
+}
+
+footer .footer-title {
+    font-size: 28px;
+}
+
+.bottom-footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--secondary-color-light);
+}
+/* Footer section - END */

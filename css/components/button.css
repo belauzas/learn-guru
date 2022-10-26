@@ -5,6 +5,7 @@
     font-weight: bold;
     font-size: 17px;
     text-decoration: none;
+    text-transform: capitalize;
     line-height: 1em;
     border-radius: 1.5em;
     border: none;
@@ -31,8 +32,8 @@
     line-height: inherit;
 }
 .btn .icon.right {
-    margin-right: 0.5em;
+    margin-left: 0.5em;
 }
 .btn .icon.left {
-    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
