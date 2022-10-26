@@ -21,16 +21,16 @@
 }
 
 .visible {
-    display: inline-block;
+    display: inline-block !important;
 }
 .visible-flex {
-    display: flex;
+    display: flex !important;
 }
 .visible-grid {
-    display: grid;
+    display: grid !important;
 }
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 @media (min-width: 576px) {
@@ -47,16 +47,16 @@
         grid-column: span 3;
     }
     .visible-sm {
-        display: inline-block;
+        display: inline-block !important;
     }
     .visible-sm-flex {
-        display: flex;
+        display: flex !important;
     }
     .visible-sm-grid {
-        display: grid;
+        display: grid !important;
     }
     .hidden-sm {
-        display: none;
+        display: none !important;
     }
 }
 @media (min-width: 768px) {
@@ -73,16 +73,16 @@
         grid-column: span 3;
     }
     .visible-md {
-        display: inline-block;
+        display: inline-block !important;
     }
     .visible-md-flex {
-        display: flex;
+        display: flex !important;
     }
     .visible-md-grid {
-        display: grid;
+        display: grid !important;
     }
     .hidden-md {
-        display: none;
+        display: none !important;
     }
 }
 @media (min-width: 992px) {
@@ -99,16 +99,16 @@
         grid-column: span 3;
     }
     .visible-lg {
-        display: inline-block;
+        display: inline-block !important;
     }
     .visible-lg-flex {
-        display: flex;
+        display: flex !important;
     }
     .visible-lg-grid {
-        display: grid;
+        display: grid !important;
     }
     .hidden-lg {
-        display: none;
+        display: none !important;
     }
 }
 @media (min-width: 1200px) {
@@ -125,16 +125,16 @@
         grid-column: span 3;
     }
     .visible-xl {
-        display: inline-block;
+        display: inline-block !important;
     }
     .visible-xl-flex {
-        display: flex;
+        display: flex !important;
     }
     .visible-xl-grid {
-        display: grid;
+        display: grid !important;
     }
     .hidden-xl {
-        display: none;
+        display: none !important;
     }
 }
 @media (min-width: 1400px) {
@@ -151,15 +151,15 @@
         grid-column: span 3;
     }
     .visible-xxl {
-        display: inline-block;
+        display: inline-block !important;
     }
     .visible-xxl-flex {
-        display: flex;
+        display: flex !important;
     }
     .visible-xxl-grid {
-        display: grid;
+        display: grid !important;
     }
     .hidden-xxl {
-        display: none;
+        display: none !important;
     }
 }
