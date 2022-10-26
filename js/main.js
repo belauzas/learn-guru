@@ -1,5 +1,21 @@
 import { isValidName, isValidEmail } from "./isValid.js";
 
+const hamburgerDOM = document.querySelector('.hamburger');
+const mainNavDOM = document.querySelector('nav');
+const closeNavDOM = mainNavDOM.querySelector('.close');
+
+hamburgerDOM.addEventListener('click', () => {
+    mainNavDOM.classList.add('mobile-menu');
+    mainNavDOM.classList.remove('hidden');
+    hamburgerDOM.classList.add('hidden');
+})
+
+closeNavDOM.addEventListener('click', () => {
+    mainNavDOM.classList.remove('mobile-menu');
+    mainNavDOM.classList.add('hidden');
+    hamburgerDOM.classList.remove('hidden');
+})
+
 const formDOM = document.getElementById('contact-form');
 const nameDOM = document.getElementById('name');
 const nameParentDOM = nameDOM.closest('.input');

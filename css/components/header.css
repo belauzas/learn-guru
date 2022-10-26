@@ -28,12 +28,50 @@
     text-decoration: none;
     color: inherit;
 }
+.header .mobile-menu .link {
+    color: #fff;
+}
 .header .link.btn {
     color: #fff;
 }
 
-@media (max-width: 991px) {
-    .header nav {
-        display: none;
-    }
+.menu-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.menu-icon:hover {
+    color: var(--primary-color);
+}
+
+.header > nav.mobile-menu .hamburger {
+    display: none;
+}
+.header > nav.mobile-menu,
+.header > nav.mobile-menu > .link-list {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.header > nav.mobile-menu {
+    padding: 80px 40px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    width: clamp(200px, 70%, 350px);
+    background-color: #111d;
+    overflow: auto;
+}
+.header .close {
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.header .close:hover {
+    color: var(--primary-color);
 }
