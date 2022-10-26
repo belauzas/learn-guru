@@ -3,18 +3,32 @@ form {
     grid-template-columns: 1fr;
     gap: 20px;
 }
-form > label {
+form > .input {
+    width: 100%;
+}
+form label {
     display: none;
 }
-form > input {
+form input {
+    width: 100%;
     padding: 0.5em 0.2em;
     font-size: 20px;
     border: none;
     outline: 1px solid #0002;
     box-shadow: 0 4px 10px #0002;
 }
-form > input:focus- {
+form input:focus-visible {
     outline: 1px solid var(--primary-color);
+}
+form .input.error input {
+    outline: 2px solid red;
+}
+form .error-msg {
+    display: none;
+    color: red;
+}
+form .input.error .error-msg {
+    display: block;
 }
 
 @media (min-width: 1200px) {
